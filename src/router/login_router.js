@@ -1,6 +1,6 @@
 const KoaRouter = require("@koa/router");
 const bodyParse = require("koa-bodyparser");
-const { login_middlerware } = require("../middleware/login_middlerware");
+const { login_middlerware } = require("../middleware/login_middleware");
 const { login_controller } = require("../controller/login_controller");
 
 const loginRouter = new KoaRouter({ prefix: "/login" });
