@@ -2,7 +2,7 @@ const mysql2 = require("mysql2");
 
 const connrctionPool = mysql2.createPool({
   user: "root",
-  password: "20021008.Zxk?.",
+  password: "",
   host: "124.71.33.153",
   port: 3306,
   database: "bookJoy",
